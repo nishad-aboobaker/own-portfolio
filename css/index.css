@@ -1,0 +1,154 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #2C3539;
+  padding: 10px 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 40px;
+  align-items: center;
+}
+
+nav img{
+  width: 60px;
+  background-blend-mode:darken;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+
+header ul li a {
+  color: #2C3539;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.intro{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  margin: auto;
+  background-color: #2C3539;
+  color: #ddd;
+}
+.introduction>h1{
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.introduction>a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color:#fcab64 ;
+  border-radius: 5px;
+  margin: auto;
+}
+.intro-img>img{
+  width: 350px;
+  border-radius: 50%;
+  border: 5px solid #ddd;
+}
+.section {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 1200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  /* max-width: 600px; */
+  text-align: justify;
+  line-height: 30px;
+  font-size: larger;
+  color: #2C3539;
+}
+
+.intro-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 5px solid #ddd;
+}
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project>a{
+  text-decoration: none;
+  color: #2C3539;
+  transition: 0.1s;
+}
+.project>a:hover{
+  text-decoration: none;
+  color: #fcab64;
+  transition: 0.1s;
+}
+.project>p{
+  line-height: 20px;
+}
+
+.skills-list {
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.skills-list li {
+  background: #ddd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+.socials{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.icons{
+  width: 30px;
+}
+html{
+  scroll-behavior: smooth;
+}
