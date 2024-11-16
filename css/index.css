@@ -128,18 +128,47 @@ header ul li a {
   line-height: 20px;
 }
 
-.skills-list {
-  padding: 0;
-  text-align: left;
-  max-width: 600px;
-  margin: 0 auto;
+
+.skillsection {
+  padding: 40px 20px;
+  text-align: center;
+  margin: auto;
+  border-radius: 8px;
+  max-width: 1200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* display: flex; */
 }
-.skills-list li {
-  background: #ddd;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 4px;
+
+.skills-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 60%;
+  /* border: 1px solid black; */
+  gap: 15px;
+  margin: auto;
 }
+
+.skills-items{
+  border: 2px solid #fcab64;
+  padding: 3px;
+  min-width: 100px;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .socials{
   display: flex;
   gap: 30px;
