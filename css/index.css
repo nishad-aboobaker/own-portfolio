@@ -42,7 +42,7 @@ header ul li a {
 
 
 .slideshow-container {
-  width:50px;
+  width:60px;
   position: relative;
   text-align: center;
 }
@@ -50,10 +50,6 @@ header ul li a {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-/* .main-photo img{
-  width: 100%;
-  height: 690px;
-} */
 
 @keyframes fade {
   from {
